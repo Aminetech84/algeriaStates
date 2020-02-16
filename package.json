@@ -1,0 +1,16 @@
+{
+  "name": "states",
+  "version": "0.0.1",
+  "description": "States of Algeria",
+  "main": "App.js",
+  "scripts": {
+    "dev": "nodemon app",
+    "start": "node app"
+  },
+  "author": "Amine ouldaouali",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0"
+  }
+}

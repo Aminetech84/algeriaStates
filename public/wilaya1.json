@@ -1,0 +1,37 @@
+{
+    "wilayat": [{
+        "code": "12",
+        "nameFr": "Tébessa",
+        "codeTel": "37",
+        "nameEn": "Tébessa",
+        "nameAr": "تبسة",
+        "codePost": {
+            "code": "9",
+            "nameFr": "Blida",
+            "codeTel": "25",
+            "nameEn": "Blida",
+            "nameAr": "البليدة",
+            "codePost1": {
+                "nameFr": "Blida",
+                "codeTel": "25",
+                "nameEn": "Blida",
+                "nameAr": "البليدة"
+            }
+        }
+
+    }, {
+        "code": "20",
+        "nameFr": "Saïda",
+        "codeTel": "48",
+        "nameEn": "Saïda",
+        "nameAr": "سعيدة",
+        "codePost": {
+            "code": "24",
+            "nameFr": "Guelma",
+            "codeTel": "37",
+            "nameEn": "Guelma",
+            "nameAr": "قالمة",
+            "codePost": "24000"
+        }
+    }]
+}
