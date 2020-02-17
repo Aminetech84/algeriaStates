@@ -4,11 +4,11 @@ const exphbs = require('express-handlebars');
 //const logger = require('./middleware/logger');
 
 const states = require('./states');
-const elBayadh = require('./elBayadh');
+//const elBayadh = require('./elBayadh');
 
 
 
-const port = process.env.port || 5000;
+const port = /*process.env.port ||*/ 5000;
 
 const app = express();
 
