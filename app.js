@@ -1,5 +1,5 @@
 const express = require('express');
-const path = require('path');
+//const path = require('path');
 const exphbs = require('express-handlebars');
 //const logger = require('./middleware/logger');
 
@@ -52,7 +52,7 @@ app.get('/algeria', (req, res) => {
 
 // Set static folder
 
-app.use(express.static(path.join(__dirname, 'public')));
+//app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/states', (req, res) => {
     res.render('states', {
