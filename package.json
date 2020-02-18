@@ -5,6 +5,7 @@
   "main": "App.js",
   "scripts": {
    
+    "start": "node app"
   },
   "author": "Amine ouldaouali",
   "license": "ISC",
