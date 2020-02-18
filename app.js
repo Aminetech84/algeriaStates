@@ -98,7 +98,7 @@ app.get('/test', (req, res) =>
 
 
 
-app.listen(port, () => console.log(`Server started on ${port}`));
+app.listen(process.env.PORT || 5000);
 
 
 
