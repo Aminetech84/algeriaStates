@@ -1,4 +1,4 @@
 
 # Algeria States
 
-<https://algeriastates.herokuapp.com/states>
+<https://algeriastates.herokuapp.com>
