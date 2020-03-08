@@ -8,13 +8,13 @@ const states = require('../../states');
 router.get('/', (req, res) => res.json(states));
 
 // Get Single Member
-router.get('/:code', (req, res) => {
-  const found = states.some(state => state.code === parseInt(req.params.code));
+router.get('/:mattricule', (req, res) => {
+  const found = states.some(state => state.mattricule === parseInt(req.params.mattricule));
 
   if (found) {
-    res.json(states.filter(state => state.code === parseInt(req.params.code)));
+    res.json(states.filter(state => state.mattricule === parseInt(req.params.mattricule)));
   } else {
-    res.status(400).json({ msg: `No state with the code of ${req.params.code}` });
+    res.status(400).json({ msg: `No state with the code of ${req.params.mattricule}` });
   }
 });
 
